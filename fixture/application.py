@@ -99,7 +99,7 @@ class Application:
 
     def open_home_page(self):
         wd = self.wd
-        wd.get("http://localhost:8080/addressbook/addressbook/")
+        wd.get("http://localhost:/addressbook/addressbook/")
 
     def destroy (self):
         self.wd.quit()
